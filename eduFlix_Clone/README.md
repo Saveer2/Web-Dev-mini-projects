@@ -1,4 +1,5 @@
 ** Eduflix – Netflix Clone **
+---
 
 Eduflix is a Netflix-inspired streaming platform built from scratch.
 It allows users to browse, stream, and enjoy educational and entertainment content in a Netflix-like UI.
