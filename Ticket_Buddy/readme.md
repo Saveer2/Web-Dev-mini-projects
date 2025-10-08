@@ -28,6 +28,10 @@ Ticket Buddy is a static website designed to provide easy-to-follow guides for b
 ## Some Images!!
 
 ![Alt text](img/11.png)
+![Alt text](img/12.png)
+
+---
+
 ## 🚀 How to Run Locally
 
 To view and run this project on your local machine, follow these simple steps:
