@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f6f0fa;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+}
+
+h1 {
+  color: #9c4dff;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ol {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 12px;
+  transition: transform 0.2s ease;
+}
+
+ol li:hover {
+  transform: translateX(5px);
+  color: #7b36cc;
+}
+
+.back-btn {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 30px;
+  background-color: #9c4dff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: fit-content;
+}
+
+.back-btn:hover {
+  background-color: #7b36cc;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+/* Feedback button styling and positioning */
+.feedback-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #9c4dff; /* Your theme color */
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 50px; /* Rounded pill shape */
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* Apply the glowing animation */
+    animation: glowing-feedback 2s infinite;
+}
+
+/* Hover effect for the button */
+.feedback-button:hover {
+    background-color: #7b36cc; 
+    transform: scale(1.05);
+    animation: none; /* Turn off the glowing on hover */
+}
+
+/* The glowing animation keyframes */
+@keyframes glowing-feedback {
+    0% {
+        box-shadow: 0 0 5px #9c4dff, 0 0 10px #9c4dff, 0 0 15px #9c4dff;
+    }
+    50% {
+        box-shadow: 0 0 20px #9c4dff, 0 0 30px #9c4dff, 0 0 40px #9c4dff;
+    }
+    100% {
+        box-shadow: 0 0 5px #9c4dff, 0 0 10px #9c4dff, 0 0 15px #9c4dff;
+    }
+}
+
+/* ----- 🎨 NEW ACCORDION STYLES ADDED BELOW 🎨 ----- */
+
+.accordion-container {
+  margin-top: 25px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #e9d8ff;
+  margin-bottom: 10px;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+/* The clickable step title */
+summary {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  padding: 15px 10px;
+  cursor: pointer;
+  list-style: none; /* Removes the default arrow */
+  position: relative;
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+summary:hover {
+  background-color: #f6f0fa; /* Subtle hover effect */
+}
+
+/* Custom '+' icon for the accordion */
+summary::after {
+  content: '+';
+  font-size: 24px;
+  color: #9c4dff;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+
+/* Rotates the '+' icon when a step is opened */
+details[open] > summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+/* Changes the title color when a step is opened */
+details[open] > summary {
+  color: #7b36cc;
+}
+
+/* The expandable box containing the image and text */
+.accordion-content {
+  padding: 10px 15px 20px 15px;
+  border-top: 1px solid #e9d8ff;
+}
+
+.accordion-content p {
+  margin-top: 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.accordion-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
