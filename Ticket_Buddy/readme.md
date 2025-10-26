@@ -37,6 +37,9 @@ JavaScript (for language switching and page loader)
 
 ![Alt text](img/11.png)
 ![Alt text](img/12.png)
+
+---
+
 ## Project Structure
 
 /
