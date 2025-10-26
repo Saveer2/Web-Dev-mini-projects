@@ -33,6 +33,10 @@ JavaScript (for language switching and page loader)
 
 ---
 
+## Some Images
+
+![Alt text](img/11.png)
+![Alt text](img/12.png)
 ## Project Structure
 
 /
