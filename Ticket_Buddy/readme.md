@@ -36,28 +36,28 @@ JavaScript (for language switching and page loader)
 ## Project Structure
 
 /
-├── index.html            (Main homepage)
-│
-├── bus_steps_en.html     (Bus Steps - English)
-├── bus_steps_mr.html     (Bus Steps - Marathi)
-├── bus_steps_hi.html     (Bus Steps - Hindi)
-│
-├── metro_steps_en.html   (Metro Steps - English)
-├── metro_steps_mr.html   (Metro Steps - Marathi)
-├── metro_steps_hi.html   (Metro Steps - Hindi)
-│
-├── railway_steps_en.html (Railway Steps - English)
-├── railway_steps_mr.html (Railway Steps - Marathi)
-├── railway_steps_hi.html (Railway Steps - Hindi)
-│
-├── style.css             (Main stylesheet)
-├── script.js             (Main JavaScript file)
-├── README.md             (This file)
-│
+├── index.html            (Main homepage) <br>
+│<br>
+├── bus_steps_en.html     (Bus Steps - English)<br>
+├── bus_steps_mr.html     (Bus Steps - Marathi)<br>
+├── bus_steps_hi.html     (Bus Steps - Hindi)<br>
+│<br>
+├── metro_steps_en.html   (Metro Steps - English)<br>
+├── metro_steps_mr.html   (Metro Steps - Marathi)<br>
+├── metro_steps_hi.html   (Metro Steps - Hindi)<br>
+│<br>
+├── railway_steps_en.html (Railway Steps - English)<br>
+├── railway_steps_mr.html (Railway Steps - Marathi)<br>
+├── railway_steps_hi.html (Railway Steps - Hindi)<br>
+│<br>
+├── style.css             (Main stylesheet)<br>
+├── script.js             (Main JavaScript file)<br>
+├── README.md             (This file)<br>
+│<br>
 └── img/
-    ├── bus/
-    ├── metro/
-    └── rail/
+    ├── bus/<br>
+    ├── metro/<br>
+    └── rail/<br>
 
 ---
 
