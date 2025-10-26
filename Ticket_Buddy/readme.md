@@ -1,4 +1,5 @@
-Ticket-Buddy
+
+##Ticket-Buddy
 
 ---
 
@@ -8,7 +9,7 @@ A simple, static, multi-lingual website providing step-by-step guides for bookin
 
 ## Features
 
-Interactive Accordion: Built with pure, accessible HTML (<details>).
+Interactive Accordion: Built with pure, accessible HTML
 
 Multi-lingual: Available in English, Marathi (मराठी), and Hindi (हिंदी).
 
